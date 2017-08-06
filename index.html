@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+      <h1>Shopping Cart</h1>
+
+      <script type="text/javascript">
+        var cart = [];
+
+        var Item = function (name, price, count) {
+          this.name = name
+          this.price = price
+          this. count = count
+        };
+
+        var a = new Item("Jordans", 99.99, 1);
+
+        cart.push( new Item("Nike", 89.99, 1));
+        cart.push( a );
+
+        console.log(cart);
+
+
+      </script>
+  </body>
+</html>
